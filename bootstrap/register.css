@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url(image/background.png) no-repeat center center fixed #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+img.imageLogo1{
+    max-width: 15%;
+    max-height: 15%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+a{
+    text-decoration: none;
+}
+
+div.main {
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+div.register {
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px soid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(3, 3, 3, 0.893);
+    color: #fff;
+}
+
+form#register {
+    margin: 40px;
+}
+
+lable {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+input#name {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: rgba(251, 247, 247, 0.865);
+    /* box-shadow: inset 1px 1px 5px rgb(0, 0, 0); */
+
+}
+
+#branch {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: rgba(251, 247, 247, 0.865);
+}
+
+#semester {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: rgba(251, 247, 247, 0.865);
+}
+
+button {
+    /* text-align: center; */
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    color: #e4e4e4;
+    cursor: pointer;
+    border: 1px solid rgba(240, 234, 234, 0.276);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    opacity: 80%;
+}
+
+.text-center {
+    text-align: center;
+    
+    
+}
+
+label,
+h2 {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
