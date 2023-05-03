@@ -1,63 +1,18 @@
-# ADMIN-MANAGMENT SYSTEM
+# Projct_web
 
-# ADMIN {
-    login,
-    manage sub-admin,
-    verify sub-admin,
-    manage dashbord,
-    manage payment,
-    manage student,
-    verify student,
-},
+NOTE :- 
+step 1: open terminal and type npm init -y
 
-# STUDENT {
-    sign up,
-    login,
-    edit profile,
-    feedback,
-    fees-payment,
-    document uploading,
-    download document,
-
-},
+step 2: open your package-lock.json file and replace{
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon src/app.js -e html"
+  },
 
 
+step 3: install some package (npm i express body-parser mongoose nodemon)
 
-##### TABLES #####
+step 4: open terminal and run this npm run dev
 
-# SIGN-UP // LOGIN-TABLE {
-    name,
-    enrollmet,
-    password,
-    branch,
-    sem,
-}
+step 5: open your chrome browser and type localhost:8000
 
-# ADMIN-TABLE {
-    id,
-    pass,
-}
-
-# STUDENT-TABLE {
-    name,
-    enrollment,
-    pass,
-    branch,
-    sem,
-}
-
-# FEES-TABLE {
-    name,
-    enrollment,
-    branch,
-    sem,
-    role (role1: pending fees, role2: complete fees),
-}
-
-# BONAFITE-TABLE {
-    name,
-    enrollment,
-    branch,
-    class (ex: a,b,c)
-    sem,
-}
