@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const mongo = "mongodb+srv://web:web-hosting@cluster0.be5n6jx.mongodb.net/test";
+const mongo = "paste your_mongodb_url";
 require("colors");
 
 
