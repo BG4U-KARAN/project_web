@@ -1,5 +1,4 @@
-# ADMIN-MANAGMENT SYSTEMSYSTE
-# PROJECT IN HTML,CSS, NODE JS
+# ADMIN-MANAGMENT SYSTEM
 
 # STEP 1:
     open your terminal and type npm init -y
