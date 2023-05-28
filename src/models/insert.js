@@ -7,6 +7,6 @@ const inputSchema = new Schema({
     Branch:String,
     Sem:String,
 });
-let iSchema = model("inputSchema", inputSchema)
-
+let iSchema = model("user", inputSchema)
+iSchema.createIndexes();
 module.exports = iSchema;
